@@ -1,44 +1,161 @@
 body {
     margin: 20px 40px;
-  }
-  
-  p {
+}
+
+p {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 0px;
     margin-top: 16px;
-  }
-  
-  /*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
-  .wrapper {
+}
+
+/*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+.wrapper {
     display: flex;
     height: 60px;
     background-color: green;
     margin-bottom: 20px;
-  }
-  
-  /*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
-  .redExample {
+}
+
+/*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+.redExample {
     flex: 1;
     background-color: red;
-  }
-  
-  /*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
-  .blueExample {
+}
+
+/*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+.blueExample {
     flex: 1;
     background-color: blue;
-  }
-  
-  /*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
-  .emptyExample2 {
+}
+
+/*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+.emptyExample2 {
     display: flex;
     flex: 1;
     flex-direction: row-reverse;
-  }
-  
-  .blueExample2 {
+}
+
+.blueExample2 {
     width: 80px;
     background-color: blue;
-  }
-  
-  /* TODO: Add CSS for the rest of your solution below */
+}
+
+/* TODO: Add CSS for the rest of your solution below */
+/*Line 3 */
+.line3 {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.redLine3 {
+    width: 80px;
+    background-color: red;
+}
+
+.blueLine3 {
+    width: 80px;
+    background-color: blue;
+}
+
+/* LINE 4 */
+.line4 {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.redLine4 {
+    flex: 1;
+    background-color: red;
+}
+
+.blueLine4 {
+    width: 80px;
+    background-color: blue;
+}
+
+/* LINE 5 */
+.line5 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.redLine5 {
+    margin: 10px;
+    width: 40px;
+    background-color: red;
+}
+
+/* LINE 6 */
+
+/* .line6 {
+    display: flex;
+
+} */
+
+.redLine6 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: red;
+}
+
+.blueLine6 {
+    width: 60px;
+    background-color: blue;
+}
+
+/* LINE 7 */
+
+.line7 {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.redLine7 {
+    width: 80px;
+    background-color: red;
+}
+
+.blueLine7Wrap {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blueLine7 {
+    height: 33.33%;
+    background-color: blue;
+}
+
+/* LINE 8 */
+
+.line8 {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.yellowLine8 {
+    width: 60px;
+    background-color: orange;
+}
+
+/* LINE 9 */
+
+.line9 {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.yellowLine9 {
+    /* display: flex; */
+    width: 19%;
+    background-color: orange;
+}
